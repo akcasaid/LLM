@@ -148,7 +148,7 @@ retriever = vectorDB.as_retriever(search_kwagrs={"k":4})
 
 # completion llm
 llm = ChatOpenAI(
-    openai_api_key="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",
+    openai_api_key="api_key",
     model_name='gpt-3.5-turbo',
     temperature=0.1 # allow the model to be more generative
 )
